@@ -1,0 +1,9 @@
+16b39a815b81076649aec14f3f008f36 c6d964d227bc276cd745973942791998 ffffffffffffffffffffffffffffffff 102 /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app
+17432cb0b63245890205f5520a8d8263 8afdc03fe13a711216d9ce6a48e18f5c ffffffffffffffffffffffffffffffff 15248 /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/MacOS/Curlit
+000000004b70e1a9000000000002bb60 a73dc2989561e7d69d3864b6a6e9f8cd ffffffffffffffffffffffffffffffff 34367 /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004b70e1a9000000000000002d 2c30b49699e8d42bc04a9ec1db87c189 ffffffffffffffffffffffffffffffff 92 /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 4bcc37541f0e8a160945d9845145bab3 ffffffffffffffffffffffffffffffff 8 /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/PkgInfo
+00000000000000000000000000000000 4bcc37541f0e8a160945d9845145bab3 ffffffffffffffffffffffffffffffff 883 /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Info.plist
+26945e1c92aba481d778faf17d52ff3b 24b05e5cfdadd25a7bea9983bb291edc ffffffffffffffffffffffffffffffff 24408 /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/CurlitAppDelegate.o
+26945e1c929fd8e4d778faf17d52f6ed 33f372ec01b4c6de79ef6cd1b1a3b9bb ffffffffffffffffffffffffffffffff 4992 /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/main.o
+000000000bb44bc1000000000000016a 26945e1c929fd8e4d778faf17d52f690 ffffffffffffffffffffffffffffffff 54208272 /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch.gch

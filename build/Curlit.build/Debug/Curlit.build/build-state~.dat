@@ -1,0 +1,207 @@
+TCurlit
+v7
+r0
+t287382080.972199
+cCheck dependencies
+cProcessInfoPlistFile /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Info.plist Curlit-Info.plist
+cCopyStringsFile /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/rob/development/non-mgit/Curlit/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch.gch Curlit_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/main.o /Users/rob/development/non-mgit/Curlit/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/CurlitAppDelegate.o /Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/MacOS/Curlit normal x86_64
+cTouch /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B50402C00000000000000EE
+t1263550508
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004B449D0D0000000000000957
+t1262787853
+s2391
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004B50402700000000000789DC
+t1263550503
+s494044
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.h
+c000000004B70E27C0000000000000194
+t1265689212
+s404
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.m
+c000000004B70E2BD00000000000001E7
+t1265689277
+s487
+i"CurlitAppDelegate.h"
+
+N/Users/rob/development/non-mgit/Curlit/Curlit_Prefix.pch
+c000000004B70E1A9000000000000008F
+t1265689001
+s143
+i<Cocoa/Cocoa.h>
+
+N/Users/rob/development/non-mgit/Curlit/English.lproj/InfoPlist.strings
+c000000004B70E1A9000000000000002D
+t1265689001
+s45
+
+N/Users/rob/development/non-mgit/Curlit/English.lproj/MainMenu.xib
+c000000004B70E1A9000000000002BB60
+t1265689001
+s179040
+
+N/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/Curlit.LinkFileList
+c000000004B70E2BD00000000000000E1
+t1265689277
+s225
+
+N/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/CurlitAppDelegate.o
+t1265689280
+s24408
+
+N/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/main.o
+t1265689280
+s4992
+
+N/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app
+t1265689280
+s102
+
+N/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Info.plist
+t1265689277
+s883
+
+N/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/MacOS/Curlit
+t1265689280
+s15248
+
+N/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/PkgInfo
+t1265689277
+s8
+
+N/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1265689277
+s92
+
+N/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/MainMenu.nib
+t1265689277
+s34367
+
+N/Users/rob/development/non-mgit/Curlit/main.m
+c000000004B70E1A900000000000000F2
+t1265689001
+s242
+i<Cocoa/Cocoa.h>
+
+N/var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch.gch
+t1265689280
+s54208272
+
+NCurlit-Info.plist
+c000000004B70E1A900000000000003EA
+t1265689001
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies287382077#287382077#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/CurlitAppDelegate.o /Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s287382080.627782
+e287382080.846801
+r1
+xCompileC
+xbuild/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/CurlitAppDelegate.o
+x/Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.m287382080#287382080#0(0"0(0#0#58"/Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.m4300903632#1456"    cd /Users/rob/development/non-mgit/Curlit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-generated-files.hmap -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-own-target-headers.hmap -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-project-headers.hmap -F/Users/rob/development/non-mgit/Curlit/build/Debug -I/Users/rob/development/non-mgit/Curlit/build/Debug/include -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/DerivedSources/x86_64 -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch -c /Users/rob/development/non-mgit/Curlit/CurlitAppDelegate.m -o /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/CurlitAppDelegate.o0#
+
+CCompileC build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/main.o /Users/rob/development/non-mgit/Curlit/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s287382080.626562
+e287382080.774610
+r1
+xCompileC
+xbuild/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/main.o
+x/Users/rob/development/non-mgit/Curlit/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/rob/development/non-mgit/Curlit/main.m287382080#287382080#0(0"0(0#0#45"/Users/rob/development/non-mgit/Curlit/main.m4300903632#1430"    cd /Users/rob/development/non-mgit/Curlit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-generated-files.hmap -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-own-target-headers.hmap -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-project-headers.hmap -F/Users/rob/development/non-mgit/Curlit/build/Debug -I/Users/rob/development/non-mgit/Curlit/build/Debug/include -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/DerivedSources/x86_64 -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch -c /Users/rob/development/non-mgit/Curlit/main.m -o /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/rob/development/non-mgit/Curlit/English.lproj/MainMenu.xib
+s287382077.209566
+e287382077.564957
+r1
+xCompileXIB
+x/Users/rob/development/non-mgit/Curlit/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib287382077#287382077#0(0"0(0#0#65"/Users/rob/development/non-mgit/Curlit/English.lproj/MainMenu.xib4300903632#326"    cd /Users/rob/development/non-mgit/Curlit    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/MainMenu.nib /Users/rob/development/non-mgit/Curlit/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s287382077.207687
+e287382077.356442
+r1
+xCopyStringsFile
+x/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings287382077#287382077#0(0"0(0#0#70"/Users/rob/development/non-mgit/Curlit/English.lproj/InfoPlist.strings4300903632#364"    cd /Users/rob/development/non-mgit/Curlit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Resources/English.lproj0#
+
+CLd /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/MacOS/Curlit normal x86_64
+s287382080.846895
+e287382080.969087
+r1
+xLd
+x/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/MacOS/Curlit
+xnormal
+xx86_64
+lSLF07#2@88"Link /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/MacOS/Curlit287382080#287382080#0(0"0(0#0#0"4300903632#555"    cd /Users/rob/development/non-mgit/Curlit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/rob/development/non-mgit/Curlit/build/Debug -F/Users/rob/development/non-mgit/Curlit/build/Debug -filelist /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Objects-normal/x86_64/Curlit.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -o /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/MacOS/Curlit0#
+
+CProcessInfoPlistFile /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Info.plist Curlit-Info.plist
+s287382077.202044
+e287382077.207595
+r1
+xProcessInfoPlistFile
+x/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Info.plist
+xCurlit-Info.plist
+lSLF07#2@25"Process Curlit-Info.plist287382077#287382077#0(0"0(0#0#56"/Users/rob/development/non-mgit/Curlit/Curlit-Info.plist13229766294700130#307"    cd /Users/rob/development/non-mgit/Curlit    builtin-infoPlistUtility Curlit-Info.plist -genpkginfo /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch.gch Curlit_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s287382077.565084
+e287382080.626398
+r1
+xProcessPCH
+x/var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch.gch
+xCurlit_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Curlit_Prefix.pch287382077#287382080#0(0"0(0#0#56"/Users/rob/development/non-mgit/Curlit/Curlit_Prefix.pch4300903632#1337"    cd /Users/rob/development/non-mgit/Curlit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-generated-files.hmap -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-own-target-headers.hmap -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/Curlit-project-headers.hmap -F/Users/rob/development/non-mgit/Curlit/build/Debug -I/Users/rob/development/non-mgit/Curlit/build/Debug/include -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/DerivedSources/x86_64 -I/Users/rob/development/non-mgit/Curlit/build/Curlit.build/Debug/Curlit.build/DerivedSources -c /Users/rob/development/non-mgit/Curlit/Curlit_Prefix.pch -o /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curlit_Prefix-asjlxcgfllubfiakkcnirsttzqbu/Curlit_Prefix.pch.gch0#
+
+CTouch /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app
+s287382080.969188
+e287382080.972157
+r1
+xTouch
+x/Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app
+lSLF07#2@67"Touch /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app287382080#287382080#0(0"0(0#0#0"4300903632#130"    cd /Users/rob/development/non-mgit/Curlit    /usr/bin/touch -c /Users/rob/development/non-mgit/Curlit/build/Debug/Curlit.app0#
+
