@@ -11,6 +11,7 @@
 @interface Requestor : NSObject {
 
 	NSMutableData* responseData;
+	NSMutableString* responseHeaders;
 	SEL updateSuccess;
 	SEL updateFailure;
 	id  callbackTarget;

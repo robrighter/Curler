@@ -1,7 +1,7 @@
 TCurler
 v7
 r0
-t287478158.100181
+t287422162.241639
 cCheck dependencies
 cProcessInfoPlistFile /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Info.plist Curler-Info.plist
 cCopyStringsFile /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -12,8 +12,6 @@ cCpResource build/Debug/Curler.app/Contents/Resources/shThemeDefault.css syntaxh
 cCpResource build/Debug/Curler.app/Contents/Resources/XMLSyntaxHighlighter.html syntaxhighlighter/XMLSyntaxHighlighter.html
 cCpResource build/Debug/Curler.app/Contents/Resources/shBrushXml.js syntaxhighlighter/shBrushXml.js
 cCpResource build/Debug/Curler.app/Contents/Resources/shCore.js syntaxhighlighter/shCore.js
-cCpResource build/Debug/Curler.app/Contents/Resources/shBrushCss.js syntaxhighlighter/shBrushCss.js
-cCpResource build/Debug/Curler.app/Contents/Resources/shBrushJScript.js syntaxhighlighter/shBrushJScript.js
 cCpResource build/Debug/Curler.app/Contents/Resources/shLegacy.js syntaxhighlighter/shLegacy.js
 cProcessPCH /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curler_Prefix-dxpupnsqmhuslzbbekuqemhfjbni/Curler_Prefix.pch.gch Curler_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/main.o /Users/rob/development/non-mgit/curler/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
@@ -61,9 +59,9 @@ i<Cocoa/Cocoa.h>
 i<WebKit/WebKit.h>
 
 N/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m
-c000000004B724E100000000000000BBE
-t1265782288
-s3006
+c000000004B7102F000000000000009C3
+t1265697520
+s2499
 i"CurlitAppDelegate.h"
 i"Requestor.h"
 
@@ -78,15 +76,15 @@ t1265697702
 s211982
 
 N/Users/rob/development/non-mgit/curler/Requestor.h
-c000000004B72559500000000000001CD
-t1265784213
-s461
+c000000004B6E49EB00000000000001AA
+t1265519083
+s426
 i<Cocoa/Cocoa.h>
 
 N/Users/rob/development/non-mgit/curler/Requestor.m
-c000000004B7256C00000000000000AD9
-t1265784512
-s2777
+c000000004B6E4E540000000000000841
+t1265520212
+s2113
 i"Requestor.h"
 
 N/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Curler.LinkFileList
@@ -95,19 +93,19 @@ t1265729361
 s336
 
 N/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/CurlitAppDelegate.o
-t1265784307
-s44508
+t1265729362
+s42124
 
 N/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Requestor.o
-t1265784512
-s20732
+t1265729362
+s17844
 
 N/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/main.o
 t1265729361
 s4992
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app
-t1265785358
+t1265729362
 s102
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Info.plist
@@ -115,8 +113,8 @@ t1265697520
 s940
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/MacOS/Curler
-t1265784512
-s28904
+t1265729362
+s24272
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/PkgInfo
 t1265697520
@@ -131,20 +129,12 @@ t1265697706
 s43089
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources/XMLSyntaxHighlighter.html
-t1265785358
-s922
+t1265697520
+s753
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources/icon.icns
 t1265697520
 s103563
-
-N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources/shBrushCss.js
-t1265771836
-s6218
-
-N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources/shBrushJScript.js
-t1265771836
-s2228
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources/shBrushXml.js
 t1265697520
@@ -163,8 +153,8 @@ t1265697520
 s2877
 
 N/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources/shThemeDefault.css
-t1265785269
-s3618
+t1265697520
+s3526
 
 N/Users/rob/development/non-mgit/curler/icon.icns
 c000000004B7049A0000000000001948B
@@ -178,19 +168,9 @@ s242
 i<Cocoa/Cocoa.h>
 
 N/Users/rob/development/non-mgit/curler/syntaxhighlighter/XMLSyntaxHighlighter.html
-c000000004B725A0D000000000000039A
-t1265785357
-s922
-
-N/Users/rob/development/non-mgit/curler/syntaxhighlighter/shBrushCss.js
-c000000004B722251000000000000184A
-t1265771089
-s6218
-
-N/Users/rob/development/non-mgit/curler/syntaxhighlighter/shBrushJScript.js
-c000000004B72231D00000000000008B4
-t1265771293
-s2228
+c000000004B70FF4F00000000000002F1
+t1265696591
+s753
 
 N/Users/rob/development/non-mgit/curler/syntaxhighlighter/shBrushXml.js
 c000000004B70CB5300000000000009D9
@@ -213,9 +193,9 @@ t1265683283
 s2877
 
 N/Users/rob/development/non-mgit/curler/syntaxhighlighter/shThemeDefault.css
-c000000004B7259B50000000000000E22
-t1265785269
-s3618
+c000000004B70F5EE0000000000000DC6
+t1265694190
+s3526
 
 N/var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curler_Prefix-dxpupnsqmhuslzbbekuqemhfjbni/Curler_Prefix.pch.gch
 t1265697524
@@ -228,11 +208,11 @@ s1011
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies287478157#287478158#0(0"0(0#1#0"4300903632#0"0#
+lSLF07#2@18"Check dependencies287422161#287422161#0(0"0(0#1#0"4300903632#0"0#
 
 CCompileC build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/CurlitAppDelegate.o /Users/rob/development/non-mgit/curler/CurlitAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s287477106.826915
-e287477107.204459
+s287422161.754863
+e287422162.076772
 r1
 xCompileC
 xbuild/Curler.build/Debug/Curler.build/Objects-normal/x86_64/CurlitAppDelegate.o
@@ -242,16 +222,12 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m: In function '-[CurlitAppDelegate requestComplete:]':
-o/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:379)
-o/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: 'CurlitAppDelegate' may not respond to '-getSyntaxType'
-o/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: (Messages without a matching method signature
-o/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: will be assumed to return 'id' and accept
-o/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: '...' as arguments.)
-lSLF07#2@66"Compile /Users/rob/development/non-mgit/curler/CurlitAppDelegate.m287477106#287477107#0(795"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m: In function '-[CurlitAppDelegate requestComplete:]':/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:379)/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: 'CurlitAppDelegate' may not respond to '-getSyntaxType'/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: (Messages without a matching method signature/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: will be assumed to return 'id' and accept/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:52: warning: '...' as arguments.)3(22@156"'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:379)287477106#113#229#0(6@58"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m287475088#52#0#52#0#33"'*' is deprecated (declared at *)0(22@55"'CurlitAppDelegate' may not respond to '-getSyntaxType'287477106#342#128#0(6@58"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m287475088#52#0#52#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)287477106#470#118#0(6@58"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m287475088#52#0#52#0#0"0(0#0#58"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m4300903632#1456"    cd /Users/rob/development/non-mgit/curler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-generated-files.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-own-target-headers.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-project-headers.hmap -F/Users/rob/development/non-mgit/curler/build/Debug -I/Users/rob/development/non-mgit/curler/build/Debug/include -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources/x86_64 -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curler_Prefix-dxpupnsqmhuslzbbekuqemhfjbni/Curler_Prefix.pch -c /Users/rob/development/non-mgit/curler/CurlitAppDelegate.m -o /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/CurlitAppDelegate.o0#
+o/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:49: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:379)
+lSLF07#2@66"Compile /Users/rob/development/non-mgit/curler/CurlitAppDelegate.m287422161#287422162#0(342"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m: In function '-[CurlitAppDelegate requestComplete:]':/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m:49: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:379)1(22@156"'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:379)287422161#113#229#0(6@58"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m287390320#49#0#49#0#33"'*' is deprecated (declared at *)0(0#0#58"/Users/rob/development/non-mgit/curler/CurlitAppDelegate.m4300903632#1456"    cd /Users/rob/development/non-mgit/curler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-generated-files.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-own-target-headers.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-project-headers.hmap -F/Users/rob/development/non-mgit/curler/build/Debug -I/Users/rob/development/non-mgit/curler/build/Debug/include -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources/x86_64 -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curler_Prefix-dxpupnsqmhuslzbbekuqemhfjbni/Curler_Prefix.pch -c /Users/rob/development/non-mgit/curler/CurlitAppDelegate.m -o /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/CurlitAppDelegate.o0#
 
 CCompileC build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Requestor.o /Users/rob/development/non-mgit/curler/Requestor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s287477312.114689
-e287477312.345701
+s287422161.928991
+e287422162.089890
 r1
 xCompileC
 xbuild/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Requestor.o
@@ -260,7 +236,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/rob/development/non-mgit/curler/Requestor.m287477312#287477312#0(0"0(0#0#50"/Users/rob/development/non-mgit/curler/Requestor.m4300903632#1440"    cd /Users/rob/development/non-mgit/curler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-generated-files.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-own-target-headers.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-project-headers.hmap -F/Users/rob/development/non-mgit/curler/build/Debug -I/Users/rob/development/non-mgit/curler/build/Debug/include -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources/x86_64 -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curler_Prefix-dxpupnsqmhuslzbbekuqemhfjbni/Curler_Prefix.pch -c /Users/rob/development/non-mgit/curler/Requestor.m -o /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Requestor.o0#
+lSLF07#2@58"Compile /Users/rob/development/non-mgit/curler/Requestor.m287422161#287422162#0(0"0(0#0#50"/Users/rob/development/non-mgit/curler/Requestor.m4300903632#1440"    cd /Users/rob/development/non-mgit/curler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-generated-files.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-own-target-headers.hmap -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Curler-project-headers.hmap -F/Users/rob/development/non-mgit/curler/build/Debug -I/Users/rob/development/non-mgit/curler/build/Debug/include -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources/x86_64 -I/Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Curler_Prefix-dxpupnsqmhuslzbbekuqemhfjbni/Curler_Prefix.pch -c /Users/rob/development/non-mgit/curler/Requestor.m -o /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Requestor.o0#
 
 CCompileC build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/main.o /Users/rob/development/non-mgit/curler/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s287422161.753210
@@ -282,34 +258,10 @@ CCopyStringsFile /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/C
 r0
 
 CCpResource build/Debug/Curler.app/Contents/Resources/XMLSyntaxHighlighter.html syntaxhighlighter/XMLSyntaxHighlighter.html
-s287478157.999657
-e287478158.093376
-r1
-xCpResource
-xbuild/Debug/Curler.app/Contents/Resources/XMLSyntaxHighlighter.html
-xsyntaxhighlighter/XMLSyntaxHighlighter.html
-lSLF07#2@48"Copy syntaxhighlighter/XMLSyntaxHighlighter.html287478157#287478158#0(0"0(0#0#82"/Users/rob/development/non-mgit/curler/syntaxhighlighter/XMLSyntaxHighlighter.html4300903632#358"    cd /Users/rob/development/non-mgit/curler    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/curler/syntaxhighlighter/XMLSyntaxHighlighter.html /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources0#
+r0
 
 CCpResource build/Debug/Curler.app/Contents/Resources/icon.icns icon.icns
 r0
-
-CCpResource build/Debug/Curler.app/Contents/Resources/shBrushCss.js syntaxhighlighter/shBrushCss.js
-s287464636.777340
-e287464636.783359
-r1
-xCpResource
-xbuild/Debug/Curler.app/Contents/Resources/shBrushCss.js
-xsyntaxhighlighter/shBrushCss.js
-lSLF07#2@36"Copy syntaxhighlighter/shBrushCss.js287464636#287464636#0(0"0(0#0#70"/Users/rob/development/non-mgit/curler/syntaxhighlighter/shBrushCss.js4300903632#346"    cd /Users/rob/development/non-mgit/curler    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/curler/syntaxhighlighter/shBrushCss.js /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources0#
-
-CCpResource build/Debug/Curler.app/Contents/Resources/shBrushJScript.js syntaxhighlighter/shBrushJScript.js
-s287464636.777978
-e287464636.788462
-r1
-xCpResource
-xbuild/Debug/Curler.app/Contents/Resources/shBrushJScript.js
-xsyntaxhighlighter/shBrushJScript.js
-lSLF07#2@40"Copy syntaxhighlighter/shBrushJScript.js287464636#287464636#0(0"0(0#0#74"/Users/rob/development/non-mgit/curler/syntaxhighlighter/shBrushJScript.js4300903632#350"    cd /Users/rob/development/non-mgit/curler    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/curler/syntaxhighlighter/shBrushJScript.js /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources0#
 
 CCpResource build/Debug/Curler.app/Contents/Resources/shBrushXml.js syntaxhighlighter/shBrushXml.js
 r0
@@ -324,23 +276,17 @@ CCpResource build/Debug/Curler.app/Contents/Resources/shLegacy.js syntaxhighligh
 r0
 
 CCpResource build/Debug/Curler.app/Contents/Resources/shThemeDefault.css syntaxhighlighter/shThemeDefault.css
-s287478069.854053
-e287478069.908508
-r1
-xCpResource
-xbuild/Debug/Curler.app/Contents/Resources/shThemeDefault.css
-xsyntaxhighlighter/shThemeDefault.css
-lSLF07#2@41"Copy syntaxhighlighter/shThemeDefault.css287478069#287478069#0(0"0(0#0#75"/Users/rob/development/non-mgit/curler/syntaxhighlighter/shThemeDefault.css4300903632#351"    cd /Users/rob/development/non-mgit/curler    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/curler/syntaxhighlighter/shThemeDefault.css /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Resources0#
+r0
 
 CLd /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/MacOS/Curler normal x86_64
-s287477312.345791
-e287477312.394785
+s287422162.089988
+e287422162.239010
 r1
 xLd
 x/Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/MacOS/Curler
 xnormal
 xx86_64
-lSLF07#2@88"Link /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/MacOS/Curler287477312#287477312#0(0"0(0#0#0"4300903632#555"    cd /Users/rob/development/non-mgit/curler    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/rob/development/non-mgit/curler/build/Debug -F/Users/rob/development/non-mgit/curler/build/Debug -filelist /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Curler.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -o /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/MacOS/Curler0#
+lSLF07#2@88"Link /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/MacOS/Curler287422162#287422162#0(0"0(0#0#0"4300903632#555"    cd /Users/rob/development/non-mgit/curler    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/rob/development/non-mgit/curler/build/Debug -F/Users/rob/development/non-mgit/curler/build/Debug -filelist /Users/rob/development/non-mgit/curler/build/Curler.build/Debug/Curler.build/Objects-normal/x86_64/Curler.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -o /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/MacOS/Curler0#
 
 CProcessInfoPlistFile /Users/rob/development/non-mgit/curler/build/Debug/Curler.app/Contents/Info.plist Curler-Info.plist
 r0
@@ -349,10 +295,10 @@ CProcessPCH /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode
 r0
 
 CTouch /Users/rob/development/non-mgit/curler/build/Debug/Curler.app
-s287478158.093842
-e287478158.100084
+s287422162.239112
+e287422162.241602
 r1
 xTouch
 x/Users/rob/development/non-mgit/curler/build/Debug/Curler.app
-lSLF07#2@67"Touch /Users/rob/development/non-mgit/curler/build/Debug/Curler.app287478158#287478158#0(0"0(0#0#0"4300903632#130"    cd /Users/rob/development/non-mgit/curler    /usr/bin/touch -c /Users/rob/development/non-mgit/curler/build/Debug/Curler.app0#
+lSLF07#2@67"Touch /Users/rob/development/non-mgit/curler/build/Debug/Curler.app287422162#287422162#0(0"0(0#0#0"4300903632#130"    cd /Users/rob/development/non-mgit/curler    /usr/bin/touch -c /Users/rob/development/non-mgit/curler/build/Debug/Curler.app0#
 

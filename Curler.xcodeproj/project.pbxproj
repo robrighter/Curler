@@ -12,6 +12,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D448232B11225AB900877170 /* shBrushCss.js in Resources */ = {isa = PBXBuildFile; fileRef = D448232911225AB900877170 /* shBrushCss.js */; };
+		D448232C11225AB900877170 /* shBrushJScript.js in Resources */ = {isa = PBXBuildFile; fileRef = D448232A11225AB900877170 /* shBrushJScript.js */; };
 		D4886BA11121193800F8DE21 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4886BA01121193800F8DE21 /* WebKit.framework */; };
 		D4886BD9112125D800F8DE21 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D4886BD8112125D800F8DE21 /* icon.icns */; };
 		D4886BDE1121262000F8DE21 /* Requestor.m in Sources */ = {isa = PBXBuildFile; fileRef = D4886BDD1121262000F8DE21 /* Requestor.m */; };
@@ -36,6 +38,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Curler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Curler-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Curler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D448232911225AB900877170 /* shBrushCss.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushCss.js; sourceTree = "<group>"; };
+		D448232A11225AB900877170 /* shBrushJScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushJScript.js; sourceTree = "<group>"; };
 		D4886BA01121193800F8DE21 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D4886BD8112125D800F8DE21 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		D4886BDC1121261500F8DE21 /* Requestor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Requestor.h; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 		D4886BDF1121266400F8DE21 /* syntaxhighlighter */ = {
 			isa = PBXGroup;
 			children = (
+				D448232911225AB900877170 /* shBrushCss.js */,
+				D448232A11225AB900877170 /* shBrushJScript.js */,
 				D4886BE01121266400F8DE21 /* shBrushXml.js */,
 				D4886BE11121266400F8DE21 /* shCore.css */,
 				D4886BE21121266400F8DE21 /* shCore.js */,
@@ -205,6 +211,8 @@
 				D4886BEB1121266400F8DE21 /* XMLSyntaxHighlighter.html in Resources */,
 				D4886BE61121266400F8DE21 /* shBrushXml.js in Resources */,
 				D4886BE81121266400F8DE21 /* shCore.js in Resources */,
+				D448232B11225AB900877170 /* shBrushCss.js in Resources */,
+				D448232C11225AB900877170 /* shBrushJScript.js in Resources */,
 				D4886BE91121266400F8DE21 /* shLegacy.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

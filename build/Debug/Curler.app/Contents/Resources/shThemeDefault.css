@@ -171,3 +171,11 @@
 { 
 	color: red !important; 
 }
+
+#headers{
+	color: #7B0002;
+	padding:5px;
+	margin-left:15px;
+	margin-right:5px;
+	
+}

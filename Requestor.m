@@ -15,7 +15,9 @@
 	updateSuccess = success;
 	updateFailure = failure;
 	callbackTarget = target;
+	responseHeaders = [[NSMutableString alloc] init];
 	responseData = [[NSMutableData data] retain];
+	
 	NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
 	
 	if (poststring == nil) {
@@ -42,8 +44,14 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
     [responseData setLength:0];
-	//NSLog([response URL]);
+	NSLog(@"Got response with headers: %@",[((NSHTTPURLResponse *)response) allHeaderFields]);
 	
+	NSDictionary *headers = [((NSHTTPURLResponse *)response) allHeaderFields];
+	
+	NSString *key;
+	for (key in headers) {
+		[responseHeaders appendString:[NSString stringWithFormat:@"%@ : %@\n", key, [headers valueForKey:key]]];
+	}	
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data{
@@ -59,7 +67,12 @@
     // Once this method is invoked, "responseData" contains the complete result
 	//NSLog(@"%@",[[NSString alloc] initWithData:responseData encoding:NSASCIIStringEncoding]);
 	//TODO: Should probably check and make sure that responseData actually has a success message in it (IE just because it didnt 500 error doesnt mean everything is perfect
-	[callbackTarget performSelector:updateSuccess withObject:[[NSString alloc] initWithData:responseData encoding:NSASCIIStringEncoding]];
+	//NSLog(@"MADE IT HERE 0: %@", [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]);
+	                         
+	NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+	[dictionary setObject:responseHeaders forKey:@"headers"];
+	[dictionary setObject:[[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding] forKey:@"body"];
+	[callbackTarget performSelector:updateSuccess withObject:dictionary];
 }
 
 
