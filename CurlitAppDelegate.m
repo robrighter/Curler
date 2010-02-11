@@ -16,15 +16,16 @@
 @synthesize postInput;
 @synthesize postCheckbox;
 @synthesize webView;
+@synthesize spinner;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application
 	// Add any code here that needs to be executed once the windowController has loaded the document's window.
-	if (self.urlInput == nil) {
-		NSLog(@"url input is nil");
+	if (self.spinner == nil) {
+		NSLog(@"spinner input is nil");
 	}
 	else {
-		NSLog(@"url is NOT nil");
+		NSLog(@"spinner is NOT nil");
 	}
 	
 	[postCheckbox setIntValue:0];
@@ -33,13 +34,17 @@
 	[postInput setFont:[NSFont systemFontOfSize:10]];
 	[postCheckbox setTarget:self];
 	[postCheckbox setAction:@selector(postCheckoutClicked)];
-	[urlInput setTextColor:[NSColor darkGrayColor]];
+	[urlInput setTextColor:[NSColor grayColor]];
 	[urlInput setTarget:self];
 	[urlInput setAction:@selector(enterPressed)];
+	
+	//[spinner setDisplayedWhenStopped:YES];
 }
 
 - (void)enterPressed {
 	Requestor *r = [[Requestor alloc] init];
+	[spinner performSelector:@selector(startAnimation:) withObject:self afterDelay:0.0];
+	[urlInput setTitle:[self addHttpIfNeeded:[urlInput title]]];
 	[r doRequestWith:[self getPostString] successAction:@selector(requestComplete:) failureAction:@selector(requestFailed) target:self url:[urlInput title]];
 }
 
@@ -50,6 +55,8 @@
 	NSString* filePath = [[NSBundle mainBundle] pathForResource: @"XMLSyntaxHighlighter" ofType: @"html"];
 	NSURL *url = [NSURL fileURLWithPath:[filePath stringByDeletingLastPathComponent]];
 	[[self.webView mainFrame] loadHTMLString: [NSString stringWithFormat:[NSString stringWithContentsOfFile: filePath],headers,[self getSyntaxType], [self replaceGtAndLtInString:body]] baseURL: url];
+	[spinner stopAnimation:nil];
+	
 }
 
 - (void)requestFailed {
@@ -102,6 +109,19 @@
 
 -(NSString *) replaceGtAndLtInString: (NSString *)s {
 	return [[s stringByReplacingOccurrencesOfString:@"<" withString:@"&lt;"] stringByReplacingOccurrencesOfString:@">" withString:@"&gt;"];
+}
+
+-(NSString *) addHttpIfNeeded:(NSString*) url {
+	NSRange textRange;
+	textRange =[[url lowercaseString] rangeOfString:@"http"];
+	if(textRange.location == NSNotFound)
+	{
+		return [[NSString stringWithFormat:@"http://%@",url] retain];
+	}
+	else {
+		return url;
+	}
+	
 }
 
 @end

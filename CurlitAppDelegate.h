@@ -15,6 +15,7 @@
 	NSTextFieldCell* postInput;
 	NSButtonCell* postCheckbox;
 	WebView* webView;
+	NSProgressIndicator*  spinner;
 }
 - (void)enterPressed;
 -(NSString *) getPostString;
@@ -25,5 +26,6 @@
 @property (nonatomic, retain) IBOutlet NSTextFieldCell*  urlInput;
 @property (nonatomic, retain) IBOutlet NSTextFieldCell*  postInput;
 @property (nonatomic, retain) IBOutlet NSButtonCell*  postCheckbox;
+@property (nonatomic, retain) IBOutlet NSProgressIndicator*  spinner;
 
 @end
